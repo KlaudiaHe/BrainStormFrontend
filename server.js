@@ -1,12 +1,11 @@
-const
-  express = require('express'),
-  serveStatic = require('serve-static'),
-  history = require('connect-history-api-fallback'),
-  port = process.env.PORT || 5000,
-  path = require('path')
+var express = require('express');
+var path = require('path');
+var serveStatic = require('serve-static');
 
-const app = express()
+app = express();
+app.use(serveStatic(__dirname));
 
-app.use(history())
-app.use(serveStatic(path.join(__dirname, '/dist/pwa-ios')))
-app.listen(port)
+var port = process.env.PORT || 5000;
+app.listen(port);
+
+console.log('server started '+ port);

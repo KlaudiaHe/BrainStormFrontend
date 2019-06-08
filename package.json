@@ -13,7 +13,8 @@
     "heroku-postbuild": "npm install --only=dev --no-shrinkwrap && npm run build-ios-pwa",
     "lint": "eslint --ext .js,.vue src",
     "start": "node server.js",
-    "test": "echo \"No test specified\" && exit 0"
+    "test": "echo \"No test specified\" && exit 0",
+    "postinstall": "npm install express"
   },
   "dependencies": {
     "express":"*",
