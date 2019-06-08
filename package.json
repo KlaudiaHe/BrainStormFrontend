@@ -12,6 +12,7 @@
     "build-mat-pwa": "quasar build -t mat -m pwa -c",
     "heroku-postbuild": "npm install --only=dev --no-shrinkwrap && npm run build-ios-pwa",
     "lint": "eslint --ext .js,.vue src",
+    "start": "node server.js",
     "test": "echo \"No test specified\" && exit 0"
   },
   "dependencies": {},
