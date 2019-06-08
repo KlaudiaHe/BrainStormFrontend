@@ -7,6 +7,10 @@
   "author": "wolfpack",
   "private": true,
   "scripts": {
+    "build": "quasar build -t ios",
+    "build-ios-pwa": "quasar build -t ios -m pwa -c",
+    "build-mat-pwa": "quasar build -t mat -m pwa -c",
+    "heroku-postbuild": "npm install --only=dev --no-shrinkwrap && npm run build-ios-pwa",
     "lint": "eslint --ext .js,.vue src",
     "test": "echo \"No test specified\" && exit 0"
   },
