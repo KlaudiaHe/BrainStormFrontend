@@ -15,7 +15,11 @@
     "start": "node server.js",
     "test": "echo \"No test specified\" && exit 0"
   },
-  "dependencies": {},
+  "dependencies": {
+    "express":"*",
+    "body-parser":"*",
+    "bcrypt": "^0.8.5"
+  },
   "devDependencies": {
     "@vue/eslint-config-standard": "^4.0.0",
     "babel-eslint": "^10.0.1",
