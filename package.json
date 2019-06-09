@@ -7,19 +7,21 @@
   "author": "wolfpack",
   "private": true,
   "scripts": {
-    "build": "quasar build -t ios",
-    "build-ios-pwa": "quasar build -t ios -m pwa -c",
-    "build-mat-pwa": "quasar build -t mat -m pwa -c",
-    "heroku-postbuild": "npm install --only=dev --no-shrinkwrap && npm run build-ios-pwa",
+    "build": "quasar build",
+    "build-ios-pwa": "quasar build -m pwa -c",
+    "build-mat-pwa": "quasar build -m pwa -c",
+    "heroku-postbuild": "npm install --only=dev --no-shrinkwrap && npm run build",
     "lint": "eslint --ext .js,.vue src",
     "start": "node server.js",
     "test": "echo \"No test specified\" && exit 0",
     "postinstall": "npm install express"
   },
   "dependencies": {
-    "express":"*",
-    "body-parser":"*",
-    "bcrypt": "^0.8.7"
+    "bcrypt": "^0.8.7",
+    "body-parser": "*",
+    "connect-history-api-fallback": "^1.6.0",
+    "express": "^4.17.1",
+    "serve-static": "^1.14.1"
   },
   "devDependencies": {
     "@vue/eslint-config-standard": "^4.0.0",

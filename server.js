@@ -1,11 +1,11 @@
-var express = require('express');
-var path = require('path');
-var serveStatic = require('serve-static');
+const
+  express = require('express'),
+  serveStatic = require('serve-static'),
+  history = require('connect-history-api-fallback'),
+  port = process.env.PORT || 5000
 
-app = express();
-app.use(serveStatic(__dirname));
+const app = express()
 
-var port = process.env.PORT || 5000;
-app.listen(port);
-
-console.log('server started '+ port);
+app.use(history())
+app.use(serveStatic(__dirname + '/dist/spa-<theme>'))
+app.listen(port)
