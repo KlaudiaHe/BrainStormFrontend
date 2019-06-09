@@ -7,5 +7,5 @@ const
 const app = express()
 
 app.use(history())
-app.use(serveStatic(__dirname + '/dist/spa-<theme>'))
+app.use(serveStatic(__dirname + '/dist/spa-mat'))
 app.listen(port)
