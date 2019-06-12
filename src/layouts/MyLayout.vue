@@ -33,23 +33,23 @@
         inset-delimiter
       >
         <q-list-header>WHERE TO</q-list-header>
-        <q-item @click.native="openURL('  https://brainstormquizzes.herokuapp.com/#/')">
+        <q-item @click.native="openURL('https://brainstormquizzes.herokuapp.com/#/')">
           <q-item-side icon="code" />
           <q-item-main label="Homepage" sublabel="Back to the homepage" />
         </q-item>
-        <q-item @click.native="openURL('  https://brainstormquizzes.herokuapp.com/#/choosequiz/')">
+        <q-item @click.native="openURL('https://brainstormquizzes.herokuapp.com/#/choosequiz/')">
           <q-item-side icon="code" />
           <q-item-main label="Choose a quiz" sublabel="And have some fun" />
         </q-item>
-        <q-item @click.native="openURL('  https://brainstormquizzes.herokuapp.com/#/randomquiz/')">
+        <q-item @click.native="openURL('https://brainstormquizzes.herokuapp.com/#/randomquiz/')">
           <q-item-side icon="code" />
           <q-item-main label="Random quiz" sublabel="Feeling adventurous?" />
         </q-item>
-        <q-item @click.native="openURL('h  https://brainstormquizzes.herokuapp.com/#/addquiz/')">
+        <q-item @click.native="openURL('https://brainstormquizzes.herokuapp.com/#/addquiz/')">
           <q-item-side icon="code" />
           <q-item-main label="Add a quiz" sublabel="Make some fun!" />
         </q-item>
-        <q-item @click.native="openURL('  https://brainstormquizzes.herokuapp.com/contact')">
+        <q-item @click.native="openURL('https://brainstormquizzes.herokuapp.com/contact')">
           <q-item-side icon="code" />
           <q-item-main label="Contact us" sublabel="If you want :)" />
         </q-item>
