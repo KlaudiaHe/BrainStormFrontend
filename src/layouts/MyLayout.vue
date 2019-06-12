@@ -49,7 +49,7 @@
           <q-item-side icon="code" />
           <q-item-main label="Add a quiz" sublabel="Make some fun!" />
         </q-item>
-        <q-item @click.native="openURL('https://brainstormquizzes.herokuapp.com/contact')">
+        <q-item @click.native="openURL('https://brainstormquizzes.herokuapp.com/#/contact')">
           <q-item-side icon="code" />
           <q-item-main label="Contact us" sublabel="If you want :)" />
         </q-item>
