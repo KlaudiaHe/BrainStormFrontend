@@ -8,6 +8,7 @@ const routes = [
       { path: '/choosequiz', component: () => import('pages/ChooseQuiz.vue') },
       { path: '/addquiz', component: () => import('pages/AddQuiz.vue') },
       { path: '/contact', component: () => import('pages/Contact.vue') },
+      { path: '/authordata', component: () => import('pages/authordata.vue') },
       { path: '/randomquiz', component: () => import('pages/RandomQuiz.vue') }
     ]
   }

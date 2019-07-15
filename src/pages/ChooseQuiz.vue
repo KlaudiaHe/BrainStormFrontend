@@ -1,4 +1,4 @@
-<template>
+<template meta charset="utf-8">
   <q-page padding>
     <q-stepper ref="stepper">
     <q-step default title="Choose a quiz">
@@ -10,7 +10,7 @@
       <h1 class="text-center text-bold">Play</h1>
       <h3 class="caption text-center">Good luck</h3>
       <h3>{{quiz.name}}</h3>
-      <div v-for="question in quiz.questionsList" :key="question.content">
+      <div meta charset="utf-8" v-for="question in quiz.questionsList" :key="question.content">
        <h4> {{question.content}} </h4>
        <div>
         <p>A. {{question.answer.answerA}}</p>

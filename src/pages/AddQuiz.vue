@@ -37,7 +37,7 @@
       <q-step title="Next steps">
         <h1 class="text-center text-bold">Add your own quiz</h1>
         <h3 class="caption text-center">Please choose from the options below:</h3>
-        <q-btn color="indigo" class="q-ma-md" label="Add next question" @click="$refs.stepper.previous()"/>
+        <q-btn  color="indigo" class="q-ma-md" label="Add next question" @click="$refs.stepper.previous()"/>
         <q-btn color="indigo" class="q-ma-md" label="Quiz is complete" @click="$refs.stepper.next()"/>
         </q-step>
       <q-step title="Congratz!">
