@@ -16,8 +16,8 @@
 <style lang="stylus">
 @import '~variables'
 .shadow-box
-  width 240px
-  height 240px
+  width 220px
+  height 220px
   margin 20px
   border-radius 50%
   font-size 25px
