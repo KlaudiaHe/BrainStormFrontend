@@ -1,5 +1,8 @@
 # Summary:
+
 Brainstorm app is a Web application located on Heroku, which allows creation and solving of quizzes. The project was made as REST API with Front-end made in Vue.js (Quasar framework). The app is being constantly developed with new functionalities.
+
+This repository contains the front-end part of the project.
 
 ## Links:
 Brainstorm front-end is available under the following link:
