@@ -5,8 +5,8 @@ Brainstorm app is a Web application located on Heroku, which allows creation and
 This repository contains the front-end part of the project.
 
 ## Links:
-Brainstorm front-end is available under the following link:
-brainstormquizzes.herokuapp.com/#/
+Brainstorm online demo is available at Heroku under the following link:
+[Brainstorm](brainstormquizzes.herokuapp.com/#/)
 
 ## Features:
 User can:
