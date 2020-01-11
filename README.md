@@ -13,9 +13,9 @@ User can:
 * pick a quiz of their own choosing from the available range of quizzes.
 
 ## Technologies:
-Back-end: Java, Spring/Spring Boot, MySQL, JUnit, Maven, Heroku, Git
-Front-end: Vue.js (Quasar framework)
+* **Back-end**: Java, Spring/Spring Boot, MySQL, JUnit, Maven, Heroku, Git
+* **Front-end**: Vue.js (Quasar framework)
 
 ## Contributors:
--Sebastian Lubiecki & Aneta Wróbel: back-end
--Klaudia Turowska: front-end
+* Sebastian Lubiecki & Aneta Wróbel: back-end
+ * Klaudia Turowska: front-end
